@@ -1,50 +1,46 @@
 # Lending-Club-Case-Study
 
-# Project Name
-> Outline a brief description of your project.
-
+# Exploratory Data Analysis on the Loan Dataset
+> Cleaning , Transforming the dataset to perform exploratory data analysis and understand what factors drive default
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Implementing various statistical and exploratory data analysis practices to deduce conclusions.
+- Use case project as a part of Diploma in IIITB
+- Lending Club wants to understand the driving factors behind the loan default i.e the variables which are strong indicators for default.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Conclusions : Driver variables determing the loan defaults
+-  Loan Amount: People who default have a relatively higher loan amount compared to those who fully pay off their loans
+- Employee Length: The bank approves loan easily for the people who have 10 or more than 10 years of experience but they also tend to be huge defaulters. The next highest number of defaulters are the people with less than 1 years of experience.
+- Term: People who default tend to take loans on 60 months than 36 months
+- Interest rate: People with higher rate of interest are more likely to be defaulters.
+- Grade: For fully paid customers, the highest number of applications are for A type loan and it reduces in a fashionable manner - which means that there are few customers whose loans are risky. A being the least riskiest.For Charged off customers, Grade Type B seems to be the highest after which the number of applications per risk type keep reducing probably because those loans that looked too risky were not approved by the bank to begin with.
+-  Home ownership: People who own houses have more stability and the defaulters in this case are lower.
+- Inquiry in Last 6 months: People who have had large number of inquries are more likely to default
+-  Open Credit Lines: Charged off people tend to have more open credit lines. 
+- Number of Bankruptcies: More the bankruptcies; more the chance of defaulting.  
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas
+- seaborn
+- plotly
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [jazz4299] - feel free to contact me!
 
 
 <!-- Optional -->
